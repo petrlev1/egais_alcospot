@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход - ПОРТАЛ АЛКОСПОТ ЕГАИС</title>
     <link href="css.css" rel="stylesheet"/>
+    <link href="new.css" rel="stylesheet"/>
 
     <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
 
@@ -15,53 +16,56 @@
     
 </head>
 <body>
+
     <div class="container" style="vertical-align: middle;">
         <a href="/">
-            <img src="http://egais.alcospot.ru/Content/Icons/logos-230x40.png" style="padding: 10px 40px 10px 10px; width: 280px; height: 60px;" />
+            <img src="img/logo_alcospot.png" style="width:232px; height:57px; margin: 10px 10px;" />
         </a>
         <h4 style="display: inline-block; position: relative; top: 5px; color: #1B75BB;">ПОРТАЛ АЛКОСПОТ ЕГАИС</h4>
-    </div>
-
-    
-    <div class="container-fluid">
+        
+        <div class="container-fluid">
         
 
 <style>
     #loginForm {
         margin-top: 30px;
         margin-bottom: 50px;
-        width: 700px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
 </style>
-<div>
 
-    <div id="loginForm">
+<div class="new_text">
+
+<div class="row">
+
+<div class="col-md-5">
+<div id="loginForm" class="new_form">
 <form action="/Account/Login?ReturnUrl=%2F" class="form-horizontal" method="post" role="form">            <div class="form-group">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <p style="font-size: 20px; margin-bottom: 0;">Вход в портал</p>
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="Login">Логин</label>
-                <div class="col-sm-4">
+                <div class="col-sm-10">
                     <input class="form-control" data-val="true" data-val-required="Требуется поле Login." id="Login" name="Login" type="text" value="" />
                 </div>
                 <div class="col-sm-4">
-                    <p class="form-control-static">
+                    <p class="form-control-static" style="margin-bottom:0;">
                         <span class="field-validation-valid" data-valmsg-for="Login" data-valmsg-replace="true"></span>
                     </p>
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="Password">Пароль</label>
-                <div class="col-sm-4">
+                <div class="col-sm-10">
                     <input class="form-control" data-val="true" data-val-required="Требуется поле Password." id="Password" name="Password" type="password" />
                 </div>
                 <div class="col-sm-4">
-                    <p class="form-control-static">
+                    <p class="form-control-static" style="margin-bottom:0;">
                         <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
                     </p>
                 </div>
@@ -73,8 +77,47 @@
                 </div>
             </div>
 </form>    </div>
+
+<div align="center"><img src="img/alcospot_egais.jpg" width="230" height="151"></div>
+
 </div>
 
+
+
+<div class="col-md-7">
+<h2>AlcoSpot ЕГАИС — удаленный документооборот ЕГАИС</h2>
+
+<p>
+С 1 января 2015 года все организации обязаны подключиться к ЕГАИС в целях отражения оборота алкогольной продукции. Мы предлагаем Вам свое решение - AlcoSpot ЕГАИС. 
+</p>
+
+<p>С нами Вы сможете:</p>
+
+<ul>
+<li><span>Подтверждать факт закупок в ЕГАИС, создавая акт полной или частичной приемки продукции;</span></li>
+<li><span>Осуществлять постановку ранее приобретенной продукции на баланс в ЕГАИС;</span></li>
+<li><span>Формировать ТТН, в том числе возвратные, согласно Ваших остатков в ЕГАИС</span></li>
+</ul>
+
+</div>
+
+
+
+<p>Наше решение позволит Вам работать в ЕГАИС с любого мобильного устройства или компьютера, удаленно от УТМ и без доработок Вашей учетной системы или кассового ПО.</p>
+</div>
+
+<h2>Попробовать бесплатно ЕГАИС-Экспресс</h2>
+
+<p>
+Вы можете бесплатно ознакомиться с работой нашего сервиса в части подтверждения факта закупки алкогольной продукции в ЕГАИС. Оценив простоту и удобство нашего решения, Вы можете подключиться к порталу AlcoSpot ЕГАИС и использовать полноценную функциональность сервиса для комфортной работы в ЕГАИС.
+</p>
+
+
+<div class="new_but" style="margin-top: 30px;"><input type="submit" value="Попробовать бесплатно ЕГАИС-экспресс" class="btn btn-primary" /><input type="submit" value="Подключиться к AlcoSpot ЕГАИС" class="btn btn-primary" /></div>
+
+
+</div>
+<div style="clear:both;"></div>
         <hr />
         <footer>
             <div class="pull-left">
@@ -85,5 +128,9 @@
             </div>
         </footer>
     </div>
+        
+    </div>
+
+    
 </body>
 </html>
