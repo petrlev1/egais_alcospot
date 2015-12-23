@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход - ПОРТАЛ АЛКОСПОТ ЕГАИС</title>
+    <link href="css.css" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/bundles/jquery?v=klU1TLdv9v8ahTE_C1p_K6EBUl2SxoAYM0EagmQ_Mds1"></script>
+
+    <script src="/bundles/bootstrap?v=B3NWFW0JkzKps1oSiyHLhCeJ1qwv5kpoaRUmylA6OAw1"></script>
+
+    
+</head>
+<body>
+    <div class="container" style="vertical-align: middle;">
+        <a href="/">
+            <img src="http://egais.alcospot.ru/Content/Icons/logos-230x40.png" style="padding: 10px 40px 10px 10px; width: 280px; height: 60px;" />
+        </a>
+        <h4 style="display: inline-block; position: relative; top: 5px; color: #1B75BB;">ПОРТАЛ АЛКОСПОТ ЕГАИС</h4>
+    </div>
+
+    
+    <div class="container-fluid">
+        
+
+<style>
+    #loginForm {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<div>
+
+    <div id="loginForm">
+<form action="/Account/Login?ReturnUrl=%2F" class="form-horizontal" method="post" role="form">            <div class="form-group">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
+                    <p style="font-size: 20px; margin-bottom: 0;">Вход в портал</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="Login">Логин</label>
+                <div class="col-sm-4">
+                    <input class="form-control" data-val="true" data-val-required="Требуется поле Login." id="Login" name="Login" type="text" value="" />
+                </div>
+                <div class="col-sm-4">
+                    <p class="form-control-static">
+                        <span class="field-validation-valid" data-valmsg-for="Login" data-valmsg-replace="true"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="Password">Пароль</label>
+                <div class="col-sm-4">
+                    <input class="form-control" data-val="true" data-val-required="Требуется поле Password." id="Password" name="Password" type="password" />
+                </div>
+                <div class="col-sm-4">
+                    <p class="form-control-static">
+                        <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="submit" value="Войти" class="btn btn-primary" />
+                </div>
+            </div>
+</form>    </div>
+</div>
+
+        <hr />
+        <footer>
+            <div class="pull-left">
+                <p>&copy; 2015 - ООО "Центр информационно-коммуникационных технологий" (ООО Центр ИКТ)</p>
+            </div>
+            <div class="pull-right">
+                <p>8 (499) 653-61-43</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
